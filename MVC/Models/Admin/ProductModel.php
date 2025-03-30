@@ -168,7 +168,7 @@
             return json_encode($arr);
         }
 
-// Hàm apiCombo - thực hiện chức năng chính của hàm apiCombo
+/*// Hàm apiCombo - thực hiện chức năng chính của hàm apiCombo
         function apiCombo()
         {
             $query = "SELECT * FROM combo";
@@ -184,7 +184,7 @@
 
             return json_encode($arr);
         }
-
+*/
 // Hàm createCombo - thực hiện chức năng chính của hàm createCombo
         function createCombo($name)
         {
