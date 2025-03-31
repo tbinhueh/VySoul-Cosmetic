@@ -16,5 +16,16 @@
             return new $model;
         }
 
+// Hàm view - thực hiện chức năng chính của hàm view
+function view($view, $data=[])
+{
+    require_once "./mvc/Views/User/layouts/".$view.".php";
+}
+
+// Hàm viewAdmin - thực hiện chức năng chính của hàm viewAdmin
+function viewAdmin($view, $data = [])
+{
+    require_once "./mvc/Views/Admin/layouts/".$view.".php";
+}
 
 ?>
