@@ -18,7 +18,7 @@ Xây dựng website bán hàng đáp ứng nhu cầu quản lý và mua sắm tr
 ### TÁC GIẢ:
 
 - Võ Minh Phúc - Tác giả chính: [GitHub](https://github.com/phuclemon)
-- Nguyễn Thanh Bình - Đồng tác giả: [GitHub](https://github.com/thanhbinhtest)
+- Hoàng Thanh Bình - Đồng tác giả: [GitHub](https://github.com/tbinhueh)
 - Trần Đăng Khôi - Đồng tác giả: [GitHub](https://github.com/Trandangkhoihp193)
 
 
