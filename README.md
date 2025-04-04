@@ -41,3 +41,77 @@ Xây dựng website bán hàng đáp ứng nhu cầu quản lý và mua sắm tr
 - **Back-end**: PHP (theo mô hình MVC) với Models, Views, Controllers
 - **Cơ sở dữ liệu**: MySQL (được cấu hình trên Hostinger để lưu trữ thông tin người dùng, sản phẩm, giỏ hàng, đơn hàng và các thông tin khác.)
 - **Thư viện bổ sung**: Bootstrap (cho giao diện), jQuery (cho các thành phần động)
+- **Hosting**: Website đã được triển khai trên Hostinger với domain [vysoul.com](https://vysoul.com)
+
+
+### 5 CHỨC NĂNG CHÍNH VÀ CẤU TRỨC MVC
+
+## 1. Quản lý sản phẩm
+- **Model**: `ProductModel.php`
+  - Xử lý các thao tác CRUD với sản phẩm
+  - Tương tác với bảng `products` trong database
+  
+- **Controller**: `ProductController.php`
+  - Xử lý các request liên quan đến sản phẩm
+  - Validate dữ liệu đầu vào
+  - Gọi các phương thức từ Model
+  
+- **View**: `Views/admin/products/`
+  - Hiển thị danh sách sản phẩm
+  - Form thêm/sửa sản phẩm
+  - Chi tiết sản phẩm
+
+## 2. Thông tin sản phẩm
+- **Model**: `ProductModel.php`
+  - Lấy thông tin chi tiết sản phẩm
+  - Lấy danh sách sản phẩm theo danh mục
+  
+- **Controller**: `ProductController.php`
+  - Xử lý request xem chi tiết sản phẩm
+  - Lọc và tìm kiếm sản phẩm
+  
+- **View**: `Views/product/`
+  - Hiển thị chi tiết sản phẩm
+  - Danh sách sản phẩm liên quan
+
+## 3. Giỏ hàng
+- **Model**: `CartModel.php`
+  - Lưu trữ thông tin giỏ hàng
+  - Tính toán tổng tiền
+  
+- **Controller**: `CartController.php`
+  - Xử lý thêm/xóa sản phẩm khỏi giỏ hàng
+  - Cập nhật số lượng sản phẩm
+  
+- **View**: `Views/cart/`
+  - Hiển thị giỏ hàng
+  - Form thanh toán
+
+## 4. Quản lý đơn hàng
+- **Model**: `OrderModel.php`
+  - Lưu trữ và cập nhật trạng thái đơn hàng
+  - Tương tác với bảng `orders` và `order_details`
+  
+- **Controller**: `OrderController.php`
+  - Xử lý đặt hàng
+  - Cập nhật trạng thái đơn hàng
+  
+- **View**: `Views/admin/orders/`
+  - Danh sách đơn hàng
+  - Chi tiết đơn hàng
+  - Form cập nhật trạng thái
+
+## 5. Quản lý sản phẩm (Admin)
+- **Model**: `ProductModel.php`
+  - Xử lý các thao tác quản lý sản phẩm
+  - Tương tác với bảng `products` và `categories`
+  
+- **Controller**: `AdminProductController.php`
+  - Xử lý các request từ admin
+  - Validate dữ liệu
+  - Upload hình ảnh
+  
+- **View**: `Views/admin/products/`
+  - Dashboard quản lý sản phẩm
+  - Form thêm/sửa sản phẩm
+  - Danh sách sản phẩm
