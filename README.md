@@ -122,6 +122,9 @@ Xây dựng website bán hàng đáp ứng nhu cầu quản lý và mua sắm tr
   - Dashboard quản lý sản phẩm
   - Form thêm/sửa sản phẩm
   - Danh sách sản phẩm
+### Tài Liệu Thiết Kế
+
+[Xem Tại Đây](https://www.figma.com/design/I7SI0bsIwRpWgVQtlHsHsD/Web?node-id=1-10&node-type=frame&t=mS6aZw6D8KRfP59A-0)
 
 ### Hướng Phát triển trong tương lai
 - Hoàn thiện các chức năng còn lại của trang web
