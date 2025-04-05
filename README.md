@@ -122,3 +122,14 @@ Xây dựng website bán hàng đáp ứng nhu cầu quản lý và mua sắm tr
   - Dashboard quản lý sản phẩm
   - Form thêm/sửa sản phẩm
   - Danh sách sản phẩm
+
+### Hướng Phát triển trong tương lai
+- Hoàn thiện các chức năng còn lại của trang web
+- Tăng cường bảo mật cho trang Web
+- Cải tiến Responsive mượt mà hơn
+- Kết nối Api vơi VNPay để thanh toán trực tuyến
+- Kết nối với các nhãn hiệu để đưa trang Web sử dụng thực tế
+
+### Lời cảm ơn
+
+Chúng em xin cảm ơn thầy Võ Văn Hải đã tận tình hướng dẫn và giúp đỡ trong suốt quá trình học tập và thực hiện đề tài.
