@@ -44,9 +44,12 @@ Xây dựng website bán hàng đáp ứng nhu cầu quản lý và mua sắm tr
 - **Hosting**: Website đã được triển khai trên Hostinger với domain [vysoul.com](https://vysoul.com)
 
 
-### 5 CHỨC NĂNG CHÍNH VÀ CẤU TRỨC MVC
+### 5 CHỨC NĂNG CHÍNH VÀ CẤU TRÚC MVC 
+## Trang chủ 
+![Trang chủ](image_demo/TrangChu.png)
 
-## 1. Quản lý sản phẩm
+## 1.Sản phẩm
+![Sản phẩm](image_demo/SanPham.png)
 - **Model**: `ProductModel.php`
   - Xử lý các thao tác CRUD với sản phẩm
   - Tương tác với bảng `products` trong database
@@ -61,7 +64,8 @@ Xây dựng website bán hàng đáp ứng nhu cầu quản lý và mua sắm tr
   - Form thêm/sửa sản phẩm
   - Chi tiết sản phẩm
 
-## 2. Thông tin sản phẩm
+## 2. Thông tin chi tiết sản phẩm
+![Thông tin chi tiết sản phẩm](image_demo/ChiTietSanPham.png)
 - **Model**: `ProductModel.php`
   - Lấy thông tin chi tiết sản phẩm
   - Lấy danh sách sản phẩm theo danh mục
@@ -75,6 +79,7 @@ Xây dựng website bán hàng đáp ứng nhu cầu quản lý và mua sắm tr
   - Danh sách sản phẩm liên quan
 
 ## 3. Giỏ hàng
+![Giỏ hàng](image_demo/GioHang.png)
 - **Model**: `CartModel.php`
   - Lưu trữ thông tin giỏ hàng
   - Tính toán tổng tiền
@@ -88,6 +93,7 @@ Xây dựng website bán hàng đáp ứng nhu cầu quản lý và mua sắm tr
   - Form thanh toán
 
 ## 4. Quản lý đơn hàng
+![Giỏ hàng](image_demo/GioHang.png)
 - **Model**: `OrderModel.php`
   - Lưu trữ và cập nhật trạng thái đơn hàng
   - Tương tác với bảng `orders` và `order_details`
@@ -102,6 +108,7 @@ Xây dựng website bán hàng đáp ứng nhu cầu quản lý và mua sắm tr
   - Form cập nhật trạng thái
 
 ## 5. Quản lý sản phẩm (Admin)
+![ Quản lý sản phẩm (Admin)](image_demo/SanPhamAdmin.png)
 - **Model**: `ProductModel.php`
   - Xử lý các thao tác quản lý sản phẩm
   - Tương tác với bảng `products` và `categories`
